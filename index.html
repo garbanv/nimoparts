@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="output.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,700&display=swap"
+        rel="stylesheet">
+    <title>NimoParts</title>
+</head>
+
+<body>
+    <header>
+        <nav class="flex items-center justify-between flex-wrap bg-black">
+            <div class="flex items-center flex-shrink-0 text-white mr-6  md:ml-0 lg:ml-12">
+                <img src="./images/logo.png" alt="nimoparts">
+            </div>
+            <div class="block lg:hidden">
+                <button
+                    class="flex items-center px-3 py-2 border rounded text-white border-red-700 hover:text-red-800 hover:border-red-800 mr-5">
+                    <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                        <title>Menu</title>
+                        <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+                    </svg>
+                </button>
+            </div>
+            <div id="navegacion" class="w-full flex-ends lg:flex lg:items-center lg:w-auto hidden lg:block">
+                <div class="text-sm lg:flex-grow navegacion ">
+                    <a href="#responsive-header" id="nosotrosBtn"
+                        class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white mr-4 px-6">
+                        Nosotros
+                    </a>
+                    <a href="#responsive-header" id="contactoBtn"
+                        class="block mt-4 lg:inline-block lg:mt-0 text-white  px-6   hover:bg-red-800  md:bg-red-700 ">
+                        Contacto
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="hero" class="flex h-56 md:h-screen text-white items-center">
+        <div>
+            <h3 class="ml-8 md:ml-16  text-xl md:text-4xl   font-extrabold m-0 p-0 leading-none">Encuentra el
+                respuesto genuino
+            </h3>
+            <h3 class="ml-8 md:ml-16 text-lg md:text-4xl  font-extrabold mb-4 p-0 leading-tight"><span
+                    class="text-red-800 hover:text-red-700">Nissan</span>
+                que estas
+                buscando
+            </h3>
+            <a class="ml-8 md:ml-16 mt-10 p-3 bg-red-800  hover:bg-red-700" id="contactoBtn2" href="#">Contáctanos</a>
+        </div>
+    </section>
+
+
+
+    <section id="nosotros" class="grid lg:grid-cols-2 md:grid-cols-1">
+        <div class="nosotrosImagen">
+            <img src="./images/generica.jpg" alt="">
+        </div>
+        <div class="nosotrostextos flex">
+            <div class="nosotrosTextoSup flex justify-center items-center px-24 text-white md:py-5">
+                <div class="py-12">
+                    <h3 class="text-4xl font-bold text-center mb-3">NimoParts</h3>
+                    <p class=" text-center">Llevamos muchos años siendo proveedores confiables de respuestos
+                        genuinos y
+                        autopartes originales
+                        para todos los modelos de vehículos Nissan.</p>
+                    <p class=" text-center mt-6">Nos enorgullece ofrecer un servicio al cliente de primera clase y
+                        autopartes de la
+                        mejor calidad.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="textoCentral" class="py-24 text-center">
+        <div class="container mx-auto px-12">
+            <h3 class="text-4xl font-bold leading-none leading-tight">Nuestro servicio de taller especializado Nissan
+                hace que sea más
+                fácil el
+                mantenimiento de tu vehículo</h3>
+        </div>
+    </section>
+
+    <section id="imagenesTaller" class="grid md:grid-cols-2 sm:grid-cols-1">
+        <div class="imagen1">
+            <img src="./images/taller1.jpg" alt="">
+        </div>
+        <div class="imagen2">
+            <img src="./images/taller2.jpg" alt="">
+        </div>
+    </section>
+
+    <section id="masInfo" class="py-24 text-center text-white">
+        <div class="container mx-auto px-12">
+            <h3 class="text-4xl font-bold leading-none leading-tight">Para más información llámanos al +58 300 64 66
+            o escríbenos un email a nimoparts@gmail.com
+            </h3>
+        </div>
+    </section>
+
+    <footer class="py-24 bg-black">
+        <div class="container mx-auto grid md:grid-cols-3 sm:grid-cols-1 text-white px-12">
+            <div class="footer1">
+                <h3 class="text-2xl font-bold">Dirección Tienda</h3>
+                <p>Av. San Sebastian, La trinidad, Caracas</p>
+                <p>Teléfono: 300 64 66</p>
+
+            </div>
+            <div class="footer2">
+                <h3 class="text-2xl font-bold ">Dirección Taller</h3>
+                <p>Av. Adrian Rodriguez, galpón N.208,Chacao, Caracas</p>
+                <p>Teléfono: </p>
+            </div>
+            <div class="footer">
+                <h3 class="text-2xl font-bold ">Redes Sociales</h3>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>

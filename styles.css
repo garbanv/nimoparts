@@ -1,0 +1,42 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Lato', sans-serif;
+}
+.navegacion a:nth-last-child(1) {
+  line-height: 6;
+}
+img {
+  max-width: 100%;
+}
+#hero {
+  background-image: url(./images/her2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.nosotrosTextoSup,
+.nosotrostextoInf {
+  overflow: hidden;
+}
+
+.nosotrosImagen {
+  overflow: hidden;
+  overflow-y: hidden;
+}
+
+.nosotrosTextoSup {
+  background-color: #dc0330;
+}
+#masInfo {
+  background-color: #dc0330;
+}
